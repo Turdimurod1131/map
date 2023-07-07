@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.header__icon{
+display: flex;
+padding-top:50px;
+}
+header{
+    display: flex;
+    gap: 400px;
+    padding-bottom: 520px;
+}
+.header__info h1{
+    color: #1786F9;
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 138%;
+text-transform: capitalize;
+}
+
+.header__info p{
+    color: #000;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 151%;
+}
+.hero {
+    justify-content: space-between;
+    display: flex;
+    gap: 105px;
+}
+
+.section-left img {
+
+    border-radius: 20px; 
+}
+
+h1 {
+    color: #1786F9;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 132.023%;
+    text-transform: capitalize;
+}
+ .hero2 i {
+    font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 175.523%;
+text-transform: capitalize;
+}
+
+.fife {
+    margin-top: 45px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Lato;
+}
+
+.six {
+    justify-content: space-between;
+    display: flex;
+    font-family: Lato;
+}
+
+.hero button {
+    width: 286px;
+    height: 54px;
+    border-radius: 7px;
+    background: #F8D617;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.button {
+    padding-top: 46px;
+}
+
+.section-right img {
+    border-radius: 20px;
+}
+
+.section-right h1 {
+    color: #1786F9;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 132.023%;
+    text-transform: capitalize;
+}
+
+.hero3 p {
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 175.523%;
+text-transform: capitalize;
+}
+.section-text{
+    padding-top: 45px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+.offline_pay{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 105px;
+    margin-bottom: 600px;
+}
+.offline_pay .offline_pay_left{
+    width: 50%;
+}
+
+.offline_pay .offline_pay_left>img,
+.offline_pay .offline_pay_right>img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offline_pay h3{
+    color: #1786F9;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 39.61px;
+}
+.offline_pay a{
+    margin-left: 12px;
+    margin-bottom: 20px;
+    padding: 16px 29px;
+    color: #171F4E;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    line-height: 22.26px;
+    background: #F8D617; 
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.25); 
+    border-radius: 7px;
+    outline: none;
+}
+
+.offline_pay .offline_pay_right{
+    width: 50%;
+}
+.offline_pay p{
+    color: black;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 31.59px;
+}
+.offline_pay .offline_pay_left p{
+    margin-bottom: 79px;
+    margin-top: 27px;
+}
+.offline_pay .offline_pay_right p{
+    margin-top: 19px;
+    margin-bottom: 56px;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.footer__logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.footer__logo h4{
+    text-align: center;
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 134%;
+}
+
+.footer__logo img{
+    margin-left: 45px;
+}
+
+.footer__info h1{
+text-align: center;
+    color: #171F4E;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer__info h4{
+text-align: center;
+    color: #000;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.offline_pay{
+    padding-top: 250px;
+}
